@@ -1,0 +1,163 @@
+body{
+   
+    color:darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar {
+    background-color:goldenrod;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-heading {
+    
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    color: Red;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #FFCF33;
+  }
+  /* CSS for the navigation links */
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  transition: border-bottom-color 0.3s ease;
+}
+
+/* Border bottom effect on hover */
+.navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 5px solid orange;
+}
+
+/* Border bottom effect on active link */
+.navbar-nav .nav-item .nav-link.active {
+  border-bottom: 5px solid orange;
+}
+
+  h3{
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    color: blue;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #FFCF33;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar-links li a {
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-links li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  .about-me {
+   height: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .about-me h2 {
+    font-size: 24px;
+    margin-top: 0;
+   
+  }
+  
+  .about-me p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+  .moving-text {
+    
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    color: #FFF1C2;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #FFCF33;
+  }
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    color:white;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+  .Name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+
+  .masthead-heading {
+    /* Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    color: #FFF1C2;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #FFCF33;
+  }
+ 
+  #live-time {
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    color: #FFF1C2;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #FFCF33;
+  }
+
+.contact{
+  color: blue;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 0px #FFCF33;
+}
