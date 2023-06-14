@@ -161,3 +161,54 @@ body{
     text-transform: uppercase;
     text-shadow: 0px 3px 0px #FFCF33;
 }
+@media (max-width: 576px) {
+  .navbar-heading {
+    font-size: 24px;
+  }
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .moving-text {
+    padding: 0 20px;
+  }
+  .font-size-25 {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (between 577px and 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar-heading {
+    font-size: 30px;
+  }
+}
+
+/* Large devices (between 769px and 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .navbar-heading {
+    font-size: 36px;
+  }
+}
+
+/* Extra-large devices (above 1200px) */
+@media (min-width: 1200px) {
+  .navbar-heading {
+    font-size: 48px;
+  }
+  .display-4 {
+    font-size: 60px;
+  }
+}
+
+/* Adjustments for specific elements on smaller screens */
+@media (max-width: 576px) {
+  .about-me {
+    padding: 20px;
+  }
+  .contact {
+    padding: 10px;
+  }
+  .heading1 {
+    font-size: 20px;
+  }
+}
